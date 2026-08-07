@@ -1,0 +1,48 @@
+name: Refresh README panels
+
+# Regenerates the SVG panels from live GitHub data. The numbers in the hero,
+# scan, activity and signal panels are baked in at generation time, so without
+# this they only move when you run the script by hand.
+
+on:
+  schedule:
+    - cron: "0 5 * * *"      # 05:00 UTC, once a day
+  workflow_dispatch:          # adds a "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-readme
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Pillow
+        run: python -m pip install --quiet Pillow
+
+      # --strict makes a flaky API a hard failure rather than letting it
+      # overwrite good panels with zeroes and a blank avatar.
+      - name: Regenerate panels
+        run: python .github/scripts/generate.py --strict
+
+      - name: Commit if the numbers moved
+        run: |
+          if git diff --quiet -- .github/assets; then
+            echo "Nothing changed today."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/assets
+          git commit -m "Refresh README panels [skip ci]"
+          git push
+          echo "Panels updated."

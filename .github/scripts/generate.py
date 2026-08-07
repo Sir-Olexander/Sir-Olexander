@@ -6,14 +6,20 @@ Run it with:   py .github/scripts/generate.py
 Everything below is self-contained. Only the contribution grid and the ASCII
 portrait touch the network, and both degrade gracefully when offline.
 
+Pass --strict to turn those soft failures into a non-zero exit instead. The
+scheduled workflow uses it, so a flaky API can never overwrite good panels
+with zeroes and a blank avatar.
+
 To personalise the README, edit the IDENTITY / LANGS / PROJECTS blocks below
 and re-run. Nothing else needs to change.
 """
-import base64
 import io
 import json
 import os
+import sys
 import urllib.request
+
+STRICT = False          # set from --strict in main()
 
 # ---------------------------------------------------------------- identity ---
 USER     = "Sir-Olexander"
@@ -585,6 +591,8 @@ def load_contributions():
     try:
         data = json.loads(fetch(url))
     except Exception as exc:                                  # offline / rate-limited
+        if STRICT:
+            raise SystemExit("FATAL: contribution API unavailable: " + str(exc))
         print("  ! contribution API unavailable (" + str(exc) + "), using blanks")
         return [{"count": 0, "level": 0} for _ in range(371)], 0, 0, 0
 
@@ -649,13 +657,18 @@ def load_avatar():
             art.append(line)
         return dots, art
     except Exception as exc:
+        if STRICT:
+            raise SystemExit("FATAL: avatar unavailable: " + str(exc))
         print("  ! avatar unavailable (" + str(exc) + "), using placeholder")
         return [], ["" for _ in range(rows)]
 
 
 def main():
+    global STRICT
+    STRICT = "--strict" in sys.argv
     os.makedirs(ASSETS, exist_ok=True)
-    print("Generating README panels for @" + USER)
+    print("Generating README panels for @" + USER
+          + (" [strict]" if STRICT else ""))
 
     days, total, active, streak = load_contributions()
     avatar_dots, ascii_rows = load_avatar()
