@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+
+# reference frames from the source video - not needed on the profile
+ezgif-*-png-split/

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400" role="img" aria-label="Profile scan">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity=".95"/>
+      <stop offset="55%" stop-color="#0369a1" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#7dd3fc" stop-opacity=".85"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity=".10"/>
+      <stop offset="100%" stop-color="#06090f" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.1" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="400" rx="16" fill="#06090f"/>
+  <rect x="1" y="1" width="898" height="398" rx="16" fill="#080e17" stroke="url(#edge)" stroke-width="1.6"/>
+  <rect x="1" y="1" width="898" height="398" rx="16" fill="url(#sheen)"/>
+  <circle cx="26" cy="26" r="5" fill="#ef4444" opacity=".85"/>
+  <circle cx="43" cy="26" r="5" fill="#f59e0b" opacity=".85"/>
+  <circle cx="60" cy="26" r="5" fill="#22c55e" opacity=".85"/>
+  <text x="86" y="30" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" letter-spacing="1.6" fill="#5b7085">VISUAL.MAP</text>
+  <text x="876" y="30" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#5b7085">Sir-Olexander@github ~ $ ./profile-scan --live</text>
+  <line x1="14" y1="44" x2="886" y2="44" stroke="#12283a" stroke-width="1"/>
+
+  <rect x="18" y="56" width="414" height="326" rx="10" fill="#0b1220" stroke="#0369a1" stroke-width="1" opacity=".9"/>
+  <rect x="450" y="56" width="432" height="326" rx="10" fill="#0b1220" stroke="#0369a1" stroke-width="1" opacity=".9"/>
+  <text x="34" y="76" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" letter-spacing="1.6" fill="#5b7085">VISUAL.MAP</text>
+  <text x="466" y="76" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" letter-spacing="1.6" fill="#5b7085">SYSTEM.INFO</text>
+  <circle cx="866" cy="72" r="3.5" fill="#22d3ee"><animate attributeName="opacity" values="1;.15;1" dur="2s" repeatCount="indefinite"/></circle>
+  <text x="852" y="76" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="8.5" letter-spacing="1.4" fill="#22d3ee" opacity=".7">LIVE</text>
+  <text x="46" y="100.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" xml:space="preserve" fill="#22d3ee" opacity="0" filter="url(#soft)">                                              <animate attributeName="opacity" values="0;.85" dur=".35s" begin="0.00s" fill="freeze"/></text>
+  <text x="46" y="111.4" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" xml:space="preserve" fill="#22d3ee" opacity="0" filter="url(#soft)">                    ..                        <animate attributeName="opacity" values="0;.85" dur=".35s" begin="0.06s" fill="freeze"/></text>
+  <text x="46" y="122.8" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" xml:space="preserve" fill="#22d3ee" opacity="0" filter="url(#soft)">                 .   :.   :..                 <animate attributeName="opacity" values="0;.85" dur=".35s" begin="0.12s" fill="freeze"/></text>
+  <text x="46" y="134.2" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" xml:space="preserve" fill="#22d3ee" opacity="0" filter="url(#soft)">                 ::.:..--:=:..                <animate attributeName="opacity" values="0;.85" dur=".35s" begin="0.18s" fill="freeze"/></text>
+  <text x="46" y="145.6" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" xml:space="preserve" fill="#22d3ee" opacity="0" filter="url(#soft)">               ..:--+: =+:-:...               <animate attributeName="opacity" values="0;.85" dur=".35s" begin="0.24s" fill="freeze"/></text>
+  <text x="46" y="157.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" xml:space="preserve" fill="#22d3ee" opacity="0" filter="url(#soft)">               ..:=---+=---::                 <animate attributeName="opacity" values="0;.85" dur=".35s" begin="0.30s" fill="freeze"/></text>
+  <text x="46" y="168.4" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" xml:space="preserve" fill="#22d3ee" opacity="0" filter="url(#soft)">                .::==:**---:::.       ...     <animate attributeName="opacity" values="0;.85" dur=".35s" begin="0.36s" fill="freeze"/></text>
+  <text x="46" y="179.8" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" xml:space="preserve" fill="#22d3ee" opacity="0" filter="url(#soft)">               .......:===--..      .....     <animate attributeName="opacity" values="0;.85" dur=".35s" begin="0.42s" fill="freeze"/></text>
+  <text x="46" y="191.2" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" xml:space="preserve" fill="#22d3ee" opacity="0" filter="url(#soft)">                ..:.:::::-:::   ..............<animate attributeName="opacity" values="0;.85" dur=".35s" begin="0.48s" fill="freeze"/></text>
+  <text x="46" y="202.6" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" xml:space="preserve" fill="#22d3ee" opacity="0" filter="url(#soft)">             ...:-: :-==:-==.. ...............<animate attributeName="opacity" values="0;.85" dur=".35s" begin="0.54s" fill="freeze"/></text>
+  <text x="46" y="214.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" xml:space="preserve" fill="#22d3ee" opacity="0" filter="url(#soft)">             : ..::  ::-:.-= ....:::::::......<animate attributeName="opacity" values="0;.85" dur=".35s" begin="0.60s" fill="freeze"/></text>
+  <text x="46" y="225.4" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" xml:space="preserve" fill="#22d3ee" opacity="0" filter="url(#soft)">        ...    . .. .. ... .  :::::::::::.....<animate attributeName="opacity" values="0;.85" dur=".35s" begin="0.66s" fill="freeze"/></text>
+  <text x="46" y="236.8" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" xml:space="preserve" fill="#22d3ee" opacity="0" filter="url(#soft)">      .....   ..    . .::.: ..:-::::::::::::::<animate attributeName="opacity" values="0;.85" dur=".35s" begin="0.72s" fill="freeze"/></text>
+  <text x="46" y="248.2" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" xml:space="preserve" fill="#22d3ee" opacity="0" filter="url(#soft)">     ......   .::.     .  .   :=------::::::::<animate attributeName="opacity" values="0;.85" dur=".35s" begin="0.78s" fill="freeze"/></text>
+  <text x="46" y="259.6" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" xml:space="preserve" fill="#22d3ee" opacity="0" filter="url(#soft)">     ... ..   .::.::.         .==-------::::::<animate attributeName="opacity" values="0;.85" dur=".35s" begin="0.84s" fill="freeze"/></text>
+  <text x="46" y="271.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" xml:space="preserve" fill="#22d3ee" opacity="0" filter="url(#soft)">        .:...:...  .:::.. ..   .-+=-------::::<animate attributeName="opacity" values="0;.85" dur=".35s" begin="0.90s" fill="freeze"/></text>
+  <text x="46" y="282.4" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" xml:space="preserve" fill="#22d3ee" opacity="0" filter="url(#soft)">       .......:-:::  ...  ..     :-=----::::::<animate attributeName="opacity" values="0;.85" dur=".35s" begin="0.96s" fill="freeze"/></text>
+  <text x="46" y="293.8" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" xml:space="preserve" fill="#22d3ee" opacity="0" filter="url(#soft)">  .. .. ...:...::-=-:.   . ........:+---::::::<animate attributeName="opacity" values="0;.85" dur=".35s" begin="1.02s" fill="freeze"/></text>
+  <text x="46" y="305.2" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" xml:space="preserve" fill="#22d3ee" opacity="0" filter="url(#soft)">  .:... ...:-::::::---:.......:..-:--*-:::::::<animate attributeName="opacity" values="0;.85" dur=".35s" begin="1.08s" fill="freeze"/></text>
+  <text x="46" y="316.6" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" xml:space="preserve" fill="#22d3ee" opacity="0" filter="url(#soft)">    ......::--:::-::-:.::..::.::.:-+--#=::::..<animate attributeName="opacity" values="0;.85" dur=".35s" begin="1.14s" fill="freeze"/></text>
+  <text x="46" y="328.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" xml:space="preserve" fill="#22d3ee" opacity="0" filter="url(#soft)">. ..   ...:----:--===--:.::+::--::-*#--#-.:...<animate attributeName="opacity" values="0;.85" dur=".35s" begin="1.20s" fill="freeze"/></text>
+  <text x="46" y="339.4" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" xml:space="preserve" fill="#22d3ee" opacity="0" filter="url(#soft)">  ::......::::-----=-==:...  :=--::-%@-::.....<animate attributeName="opacity" values="0;.85" dur=".35s" begin="1.26s" fill="freeze"/></text>
+  <text x="46" y="350.8" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" xml:space="preserve" fill="#22d3ee" opacity="0" filter="url(#soft)">  .....:...::::---=-==:::...  =*---::@%.......<animate attributeName="opacity" values="0;.85" dur=".35s" begin="1.32s" fill="freeze"/></text>
+  <text x="470" y="104" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#5b7085">Subject</text>
+  <text x="866" y="104" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#e2e8f0" opacity="0">Alexandre Belostecinic<animate attributeName="opacity" values="0;1" dur=".4s" begin="0.82s" fill="freeze"/></text>
+  <text x="470" y="131" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#5b7085">Handle</text>
+  <text x="866" y="131" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#e2e8f0" opacity="0">@Sir-Olexander<animate attributeName="opacity" values="0;1" dur=".4s" begin="0.92s" fill="freeze"/></text>
+  <text x="470" y="158" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#5b7085">Role</text>
+  <text x="866" y="158" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#e2e8f0" opacity="0">Agentic Engineer<animate attributeName="opacity" values="0;1" dur=".4s" begin="1.03s" fill="freeze"/></text>
+  <text x="470" y="185" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#5b7085">Status</text>
+  <text x="866" y="185" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#e2e8f0" opacity="0">Shipping / Learning / Napping on weekends<animate attributeName="opacity" values="0;1" dur=".4s" begin="1.14s" fill="freeze"/></text>
+  <text x="470" y="212" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#5b7085">Languages</text>
+  <text x="866" y="212" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#e2e8f0" opacity="0">TypeScript, JavaScript, HTML / CSS<animate attributeName="opacity" values="0;1" dur=".4s" begin="1.25s" fill="freeze"/></text>
+  <text x="470" y="239" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#5b7085">Contributions</text>
+  <text x="866" y="239" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#e2e8f0" opacity="0">425<animate attributeName="opacity" values="0;1" dur=".4s" begin="1.36s" fill="freeze"/></text>
+  <text x="470" y="266" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#5b7085">Active Days</text>
+  <text x="866" y="266" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#e2e8f0" opacity="0">74<animate attributeName="opacity" values="0;1" dur=".4s" begin="1.46s" fill="freeze"/></text>
+  <text x="470" y="293" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#5b7085">Longest Streak</text>
+  <text x="866" y="293" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#e2e8f0" opacity="0">11 days<animate attributeName="opacity" values="0;1" dur=".4s" begin="1.57s" fill="freeze"/></text>
+  <text x="470" y="320" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#5b7085">Location</text>
+  <text x="866" y="320" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#e2e8f0" opacity="0">Coimbra, Portugal<animate attributeName="opacity" values="0;1" dur=".4s" begin="1.68s" fill="freeze"/></text>
+  <text x="470" y="347" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#5b7085">Contact</text>
+  <text x="866" y="347" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#e2e8f0" opacity="0">github.com/Sir-Olexander<animate attributeName="opacity" values="0;1" dur=".4s" begin="1.79s" fill="freeze"/></text>
+</svg>

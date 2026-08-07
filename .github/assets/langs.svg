@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="190" viewBox="0 0 900 190" role="img" aria-label="Language stack">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity=".95"/>
+      <stop offset="55%" stop-color="#0369a1" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#7dd3fc" stop-opacity=".85"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity=".10"/>
+      <stop offset="100%" stop-color="#06090f" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.1" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="190" rx="16" fill="#06090f"/>
+  <rect x="1" y="1" width="898" height="188" rx="16" fill="#080e17" stroke="url(#edge)" stroke-width="1.6"/>
+  <rect x="1" y="1" width="898" height="188" rx="16" fill="url(#sheen)"/>
+  <circle cx="26" cy="26" r="5" fill="#ef4444" opacity=".85"/>
+  <circle cx="43" cy="26" r="5" fill="#f59e0b" opacity=".85"/>
+  <circle cx="60" cy="26" r="5" fill="#22c55e" opacity=".85"/>
+  <text x="86" y="30" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" letter-spacing="1.6" fill="#5b7085">LANGUAGE.STACK</text>
+  <text x="876" y="30" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#5b7085">--by-usage</text>
+  <line x1="14" y1="44" x2="886" y2="44" stroke="#12283a" stroke-width="1"/>
+
+  <text x="26" y="70" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="15" font-weight="700" fill="#e2e8f0">Language Stack</text>
+  <rect x="26" y="88" width="848" height="18" rx="9" fill="#12283a"/>
+  <rect x="26.0" y="88" width="0" height="18" fill="#22d3ee" opacity=".95"><animate attributeName="width" values="0;390.1" dur=".9s" begin="0.00s" fill="freeze" calcMode="spline" keySplines="0.2 0.7 0.3 1"/></rect>
+  <rect x="416.1" y="88" width="0" height="18" fill="#22b8d4" opacity=".95"><animate attributeName="width" values="0;186.6" dur=".9s" begin="0.12s" fill="freeze" calcMode="spline" keySplines="0.2 0.7 0.3 1"/></rect>
+  <rect x="602.6" y="88" width="0" height="18" fill="#157f99" opacity=".95"><animate attributeName="width" values="0;152.6" dur=".9s" begin="0.24s" fill="freeze" calcMode="spline" keySplines="0.2 0.7 0.3 1"/></rect>
+  <rect x="755.3" y="88" width="0" height="18" fill="#0e4f63" opacity=".95"><animate attributeName="width" values="0;76.3" dur=".9s" begin="0.36s" fill="freeze" calcMode="spline" keySplines="0.2 0.7 0.3 1"/></rect>
+  <rect x="831.6" y="88" width="0" height="18" fill="#0d2a3a" opacity=".95"><animate attributeName="width" values="0;42.4" dur=".9s" begin="0.48s" fill="freeze" calcMode="spline" keySplines="0.2 0.7 0.3 1"/></rect>
+  <circle cx="32" cy="138" r="4.5" fill="#22d3ee"/>
+  <text x="44" y="142" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e2e8f0">TypeScript</text>
+  <text x="44" y="160" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#5b7085">46%</text>
+  <circle cx="154.0" cy="138" r="4.5" fill="#22b8d4"/>
+  <text x="166.0" y="142" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e2e8f0">JavaScript</text>
+  <text x="166.0" y="160" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#5b7085">22%</text>
+  <circle cx="276.0" cy="138" r="4.5" fill="#157f99"/>
+  <text x="288.0" y="142" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e2e8f0">HTML / CSS</text>
+  <text x="288.0" y="160" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#5b7085">18%</text>
+  <circle cx="398.0" cy="138" r="4.5" fill="#0e4f63"/>
+  <text x="410.0" y="142" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e2e8f0">Python</text>
+  <text x="410.0" y="160" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#5b7085">9%</text>
+  <circle cx="489.6" cy="138" r="4.5" fill="#0d2a3a"/>
+  <text x="501.6" y="142" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e2e8f0">Scala</text>
+  <text x="501.6" y="160" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#5b7085">5%</text>
+</svg>

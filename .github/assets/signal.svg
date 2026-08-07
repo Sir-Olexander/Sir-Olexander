@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="210" viewBox="0 0 900 210" role="img" aria-label="Profile signal">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity=".95"/>
+      <stop offset="55%" stop-color="#0369a1" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#7dd3fc" stop-opacity=".85"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity=".10"/>
+      <stop offset="100%" stop-color="#06090f" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.1" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="210" rx="16" fill="#06090f"/>
+  <rect x="1" y="1" width="898" height="208" rx="16" fill="#080e17" stroke="url(#edge)" stroke-width="1.6"/>
+  <rect x="1" y="1" width="898" height="208" rx="16" fill="url(#sheen)"/>
+  <circle cx="26" cy="26" r="5" fill="#ef4444" opacity=".85"/>
+  <circle cx="43" cy="26" r="5" fill="#f59e0b" opacity=".85"/>
+  <circle cx="60" cy="26" r="5" fill="#22c55e" opacity=".85"/>
+  <text x="86" y="30" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" letter-spacing="1.6" fill="#5b7085">SIGNAL</text>
+  <text x="876" y="30" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#5b7085">--activity-only</text>
+  <line x1="14" y1="44" x2="886" y2="44" stroke="#12283a" stroke-width="1"/>
+
+  <text x="26" y="70" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="15" font-weight="700" fill="#e2e8f0">Profile Signal</text>
+  <text x="26" y="88" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#5b7085">Activity metrics, pulled live from the GitHub contribution graph</text>
+  <rect x="26" y="104" width="200" height="76" rx="10" fill="#0b1220" stroke="#0369a1" stroke-width="1" opacity=".95"/>
+    <text x="42" y="126" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" letter-spacing="1.5" fill="#5b7085">CONTRIBUTIONS</text>
+    <text x="42" y="154" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="24" font-weight="700" fill="#22d3ee" filter="url(#soft)" opacity="0">425<animate attributeName="opacity" values="0;1" dur=".5s" begin="0.00s" fill="freeze"/></text>
+    <rect x="42" y="164" width="168" height="4" rx="2" fill="#12283a"/>
+    <rect x="42" y="164" width="0" height="4" rx="2" fill="#22d3ee" opacity=".9"><animate attributeName="width" values="0;71" dur="1.1s" begin="0.20s" fill="freeze" calcMode="spline" keySplines="0.2 0.7 0.3 1"/></rect>
+  <rect x="244" y="104" width="200" height="76" rx="10" fill="#0b1220" stroke="#0369a1" stroke-width="1" opacity=".95"/>
+    <text x="260" y="126" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" letter-spacing="1.5" fill="#5b7085">ACTIVE DAYS</text>
+    <text x="260" y="154" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="24" font-weight="700" fill="#22d3ee" filter="url(#soft)" opacity="0">74<animate attributeName="opacity" values="0;1" dur=".5s" begin="0.14s" fill="freeze"/></text>
+    <rect x="260" y="164" width="168" height="4" rx="2" fill="#12283a"/>
+    <rect x="260" y="164" width="0" height="4" rx="2" fill="#22d3ee" opacity=".9"><animate attributeName="width" values="0;34" dur="1.1s" begin="0.34s" fill="freeze" calcMode="spline" keySplines="0.2 0.7 0.3 1"/></rect>
+  <rect x="462" y="104" width="200" height="76" rx="10" fill="#0b1220" stroke="#0369a1" stroke-width="1" opacity=".95"/>
+    <text x="478" y="126" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" letter-spacing="1.5" fill="#5b7085">LONGEST STREAK</text>
+    <text x="478" y="154" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="24" font-weight="700" fill="#22d3ee" filter="url(#soft)" opacity="0">11d<animate attributeName="opacity" values="0;1" dur=".5s" begin="0.28s" fill="freeze"/></text>
+    <rect x="478" y="164" width="168" height="4" rx="2" fill="#12283a"/>
+    <rect x="478" y="164" width="0" height="4" rx="2" fill="#22d3ee" opacity=".9"><animate attributeName="width" values="0;31" dur="1.1s" begin="0.48s" fill="freeze" calcMode="spline" keySplines="0.2 0.7 0.3 1"/></rect>
+  <rect x="680" y="104" width="200" height="76" rx="10" fill="#0b1220" stroke="#0369a1" stroke-width="1" opacity=".95"/>
+    <text x="696" y="126" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" letter-spacing="1.5" fill="#5b7085">LANGUAGES</text>
+    <text x="696" y="154" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="24" font-weight="700" fill="#22d3ee" filter="url(#soft)" opacity="0">5<animate attributeName="opacity" values="0;1" dur=".5s" begin="0.42s" fill="freeze"/></text>
+    <rect x="696" y="164" width="168" height="4" rx="2" fill="#12283a"/>
+    <rect x="696" y="164" width="0" height="4" rx="2" fill="#22d3ee" opacity=".9"><animate attributeName="width" values="0;105" dur="1.1s" begin="0.62s" fill="freeze" calcMode="spline" keySplines="0.2 0.7 0.3 1"/></rect>
+</svg>

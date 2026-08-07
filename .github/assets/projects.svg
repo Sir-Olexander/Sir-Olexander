@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-label="Featured projects">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity=".95"/>
+      <stop offset="55%" stop-color="#0369a1" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#7dd3fc" stop-opacity=".85"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity=".10"/>
+      <stop offset="100%" stop-color="#06090f" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.1" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="430" rx="16" fill="#06090f"/>
+  <rect x="1" y="1" width="898" height="428" rx="16" fill="#080e17" stroke="url(#edge)" stroke-width="1.6"/>
+  <rect x="1" y="1" width="898" height="428" rx="16" fill="url(#sheen)"/>
+  <circle cx="26" cy="26" r="5" fill="#ef4444" opacity=".85"/>
+  <circle cx="43" cy="26" r="5" fill="#f59e0b" opacity=".85"/>
+  <circle cx="60" cy="26" r="5" fill="#22c55e" opacity=".85"/>
+  <text x="86" y="30" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" letter-spacing="1.6" fill="#5b7085">PROJECTS.LIST</text>
+  <text x="876" y="30" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#5b7085">./projects.sh --all</text>
+  <line x1="14" y1="44" x2="886" y2="44" stroke="#12283a" stroke-width="1"/>
+
+  <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".6s" begin="0.00s" fill="freeze"/>
+    <rect x="26" y="66" width="414" height="160" rx="12" fill="#0b1220" stroke="#0369a1" stroke-width="1.2" opacity=".95"/>
+    <text x="44" y="88" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9.5" letter-spacing="1.4" fill="#5b7085">▸ aura</text>
+    <text x="44" y="118" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="17" font-weight="700" fill="#22d3ee" filter="url(#soft)">Aura</text>
+    <text x="44" y="144" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#5b7085">React Native app on Expo Router, with Supabase</text>
+    <text x="44" y="160" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#5b7085">auth and a Zustand store. TypeScript throughout.</text>
+    <rect x="44" y="178" width="86" height="21" rx="10.5" fill="#080e17" stroke="#0369a1" stroke-width="1"/><text x="87" y="192" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9.5" fill="#7dd3fc">TypeScript</text>
+    <circle cx="388" cy="146" r="24" fill="none" stroke="#12283a" stroke-width="5"/>
+    <circle cx="388" cy="146" r="24" fill="none" stroke="#22d3ee" stroke-width="5" stroke-linecap="round" transform="rotate(-90 388 146)" stroke-dasharray="150.8" stroke-dashoffset="150.8" filter="url(#soft)"><animate attributeName="stroke-dashoffset" values="150.8;0.0" dur="1.3s" begin="0.30s" fill="freeze" calcMode="spline" keySplines="0.2 0.7 0.3 1"/></circle>
+    <text x="388" y="151" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" font-weight="700" fill="#e2e8f0">100%</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".6s" begin="0.22s" fill="freeze"/>
+    <rect x="460" y="66" width="414" height="160" rx="12" fill="#0b1220" stroke="#0369a1" stroke-width="1.2" opacity=".95"/>
+    <text x="478" y="88" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9.5" letter-spacing="1.4" fill="#5b7085">▸ solus</text>
+    <text x="478" y="118" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="17" font-weight="700" fill="#22d3ee" filter="url(#soft)">Solus</text>
+    <text x="478" y="144" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#5b7085">Expo Router app styled with NativeWind. Supabase</text>
+    <text x="478" y="160" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#5b7085">backend, Zustand state, auth and quest flows.</text>
+    <rect x="478" y="178" width="86" height="21" rx="10.5" fill="#080e17" stroke="#0369a1" stroke-width="1"/><text x="521" y="192" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9.5" fill="#7dd3fc">TypeScript</text>
+    <circle cx="822" cy="146" r="24" fill="none" stroke="#12283a" stroke-width="5"/>
+    <circle cx="822" cy="146" r="24" fill="none" stroke="#22d3ee" stroke-width="5" stroke-linecap="round" transform="rotate(-90 822 146)" stroke-dasharray="150.8" stroke-dashoffset="150.8" filter="url(#soft)"><animate attributeName="stroke-dashoffset" values="150.8;54.3" dur="1.3s" begin="0.52s" fill="freeze" calcMode="spline" keySplines="0.2 0.7 0.3 1"/></circle>
+    <text x="822" y="151" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" font-weight="700" fill="#e2e8f0">64%</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".6s" begin="0.44s" fill="freeze"/>
+    <rect x="26" y="244" width="414" height="160" rx="12" fill="#0b1220" stroke="#0369a1" stroke-width="1.2" opacity=".95"/>
+    <text x="44" y="266" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9.5" letter-spacing="1.4" fill="#5b7085">▸ zyvo</text>
+    <text x="44" y="296" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="17" font-weight="700" fill="#22d3ee" filter="url(#soft)">Zyvo</text>
+    <text x="44" y="322" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#5b7085">Newest build of the three: Expo 55 on React</text>
+    <text x="44" y="338" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#5b7085">Native 0.83, new architecture, Supabase-backed.</text>
+    <rect x="44" y="356" width="86" height="21" rx="10.5" fill="#080e17" stroke="#0369a1" stroke-width="1"/><text x="87" y="370" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9.5" fill="#7dd3fc">TypeScript</text>
+    <circle cx="388" cy="324" r="24" fill="none" stroke="#12283a" stroke-width="5"/>
+    <circle cx="388" cy="324" r="24" fill="none" stroke="#22d3ee" stroke-width="5" stroke-linecap="round" transform="rotate(-90 388 324)" stroke-dasharray="150.8" stroke-dashoffset="150.8" filter="url(#soft)"><animate attributeName="stroke-dashoffset" values="150.8;89.0" dur="1.3s" begin="0.74s" fill="freeze" calcMode="spline" keySplines="0.2 0.7 0.3 1"/></circle>
+    <text x="388" y="329" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" font-weight="700" fill="#e2e8f0">41%</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".6s" begin="0.66s" fill="freeze"/>
+    <rect x="460" y="244" width="414" height="160" rx="12" fill="#0b1220" stroke="#0369a1" stroke-width="1.2" opacity=".95"/>
+    <text x="478" y="266" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9.5" letter-spacing="1.4" fill="#5b7085">▸ perkorsi</text>
+    <text x="478" y="296" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="17" font-weight="700" fill="#22d3ee" filter="url(#soft)">Perkorsi</text>
+    <text x="478" y="322" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#5b7085">Trip planner with maps, itinerary builder and</text>
+    <text x="478" y="338" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#5b7085">printable exports. RevenueCat subs, Supabase.</text>
+    <rect x="478" y="356" width="86" height="21" rx="10.5" fill="#080e17" stroke="#0369a1" stroke-width="1"/><text x="521" y="370" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9.5" fill="#7dd3fc">TypeScript</text>
+    <circle cx="822" cy="324" r="24" fill="none" stroke="#12283a" stroke-width="5"/>
+    <circle cx="822" cy="324" r="24" fill="none" stroke="#22d3ee" stroke-width="5" stroke-linecap="round" transform="rotate(-90 822 324)" stroke-dasharray="150.8" stroke-dashoffset="150.8" filter="url(#soft)"><animate attributeName="stroke-dashoffset" values="150.8;0.0" dur="1.3s" begin="0.96s" fill="freeze" calcMode="spline" keySplines="0.2 0.7 0.3 1"/></circle>
+    <text x="822" y="329" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" font-weight="700" fill="#e2e8f0">100%</text>
+  </g>
+</svg>

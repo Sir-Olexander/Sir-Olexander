@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="250" viewBox="0 0 900 250" role="img" aria-label="OLEXANDER">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity=".95"/>
+      <stop offset="55%" stop-color="#0369a1" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#7dd3fc" stop-opacity=".85"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity=".10"/>
+      <stop offset="100%" stop-color="#06090f" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.1" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="reveal">
+      <rect x="36" y="76" height="134.0" width="0">
+        <animate attributeName="width" values="0;656.0;656.0" dur="3.4s" keyTimes="0;0.72;1" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <rect width="900" height="250" rx="16" fill="#06090f"/>
+  <rect x="1" y="1" width="898" height="248" rx="16" fill="#080e17" stroke="url(#edge)" stroke-width="1.6"/>
+  <rect x="1" y="1" width="898" height="248" rx="16" fill="url(#sheen)"/>
+  <circle cx="26" cy="26" r="5" fill="#ef4444" opacity=".85"/>
+  <circle cx="43" cy="26" r="5" fill="#f59e0b" opacity=".85"/>
+  <circle cx="60" cy="26" r="5" fill="#22c55e" opacity=".85"/>
+  <text x="86" y="30" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" letter-spacing="1.6" fill="#5b7085">IDENTITY</text>
+  <text x="876" y="30" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#5b7085">Sir-Olexander@github</text>
+  <line x1="14" y1="44" x2="886" y2="44" stroke="#12283a" stroke-width="1"/>
+
+  <text x="40" y="66" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#5b7085"><tspan fill="#22d3ee">$</tspan> ./whoami --render ascii</text>
+  <g clip-path="url(#reveal)" filter="url(#glow)">
+    <text x="40" y="94" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="20" xml:space="preserve" fill="#22d3ee" opacity=".92"> ███  █     █████ █   █  ███  █   █ ████  █████ ████  </text>
+    <text x="40" y="112" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="20" xml:space="preserve" fill="#22d3ee" opacity=".92">█   █ █     █     █   █ █   █ ██  █ █   █ █     █   █ </text>
+    <text x="40" y="130" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="20" xml:space="preserve" fill="#22d3ee" opacity=".92">█   █ █     █      █ █  █   █ █ █ █ █   █ █     █   █ </text>
+    <text x="40" y="148" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="20" xml:space="preserve" fill="#22d3ee" opacity=".92">█   █ █     ████    █   █████ █  ██ █   █ ████  ████  </text>
+    <text x="40" y="166" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="20" xml:space="preserve" fill="#22d3ee" opacity=".92">█   █ █     █      █ █  █   █ █   █ █   █ █     █ █   </text>
+    <text x="40" y="184" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="20" xml:space="preserve" fill="#22d3ee" opacity=".92">█   █ █     █     █   █ █   █ █   █ █   █ █     █  █  </text>
+    <text x="40" y="202" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="20" xml:space="preserve" fill="#22d3ee" opacity=".92"> ███  █████ █████ █   █ █   █ █   █ ████  █████ █   █ </text>
+  </g>
+  <rect y="78" width="10" height="126" fill="#7dd3fc" opacity=".75">
+    <animate attributeName="x" values="40;688.0;688.0" dur="3.4s" keyTimes="0;0.72;1" fill="freeze"/>
+    <animate attributeName="opacity" values=".75;.75;0;.75;0;.75" dur="5s" keyTimes="0;0.68;0.76;0.84;0.92;1" repeatCount="indefinite"/>
+  </rect>
+  <text x="40" y="228" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#5b7085">Agentic Engineer <tspan fill="#12283a">|</tspan> <tspan fill="#7dd3fc" opacity=".8">Coimbra, Portugal</tspan></text>
+</svg>
