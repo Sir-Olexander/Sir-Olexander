@@ -407,6 +407,7 @@
   <rect x="796.8" y="131.2" width="11.0" height="11.0" rx="2.4" fill="#0e4f63" opacity="0"><animate attributeName="opacity" values="0;1" dur=".5s" begin="0.62s" fill="freeze"/></rect>
   <rect x="796.8" y="144.8" width="11.0" height="11.0" rx="2.4" fill="#0d1a26" opacity="0"><animate attributeName="opacity" values="0;1" dur=".5s" begin="0.62s" fill="freeze"/></rect>
   <rect x="796.8" y="158.4" width="11.0" height="11.0" rx="2.4" fill="#0d1a26" opacity="0"><animate attributeName="opacity" values="0;1" dur=".5s" begin="0.62s" fill="freeze"/></rect>
+  <rect x="796.8" y="172.0" width="11.0" height="11.0" rx="2.4" fill="#0d1a26" opacity="0"><animate attributeName="opacity" values="0;1" dur=".5s" begin="0.62s" fill="freeze"/></rect>
   <g filter="url(#glow)">
     <g transform="translate(49.60000000000002 150.3)">
       <animateTransform attributeName="transform" type="translate" values="49.60000000000002 150.3;850.4 150.3" dur="9.0s" repeatCount="indefinite"/>
